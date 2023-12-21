@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Poppins&family=Unlock&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden; /* Menyembunyikan bilah gulir pada sumbu horizontal */
+}
+
+/* Opsional: Menyembunyikan bilah gulir pada sumbu vertikal jika diperlukan */
+body::-webkit-scrollbar {
+    width: 0.4em;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #FF7420;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #191A19;
+}
+
+
