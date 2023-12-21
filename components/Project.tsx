@@ -88,7 +88,7 @@ export const Project = () => {
                             <hr className='border-white border-[2px] rounded-xl' />
                         </div>
 
-                        <div className='lg:hidden md:hidden'>
+                        <div className='lg:hidden md:hidden ms-5'>
                             <div className='flex justify-center'>
                                 <hr className='border w-1 h-80 bg-white rounded-full'></hr>
                                 <div className='flex flex-col'>
@@ -145,15 +145,15 @@ export const Project = () => {
                             <p className='text-hitam text-5xl font-semibold'>Featured Project</p>
                             
                             <div className='flex flex-wrap gap-7'>
-                                <button className="text-hitam font-semibold text-md py-3 px-1 border-b-4 rounded border-hitam">All Works</button>
-                                <button className="text-white font-semibold text-md py-3 px-1">Construction</button>
-                                <button className="text-white font-semibold text-md py-3 px-1">Architecture</button>
-                                <button className="text-white font-semibold text-md py-3 px-1">Building</button>
-                                <button className="text-white font-semibold text-md py-3 px-1">Renovations</button>
-                                <button className="text-white font-semibold text-md py-3 px-1">Interior</button>
+                                <button className="text-hitam font-semibold text-sm lg:text-base py-3 px-1 border-b-4 rounded border-hitam">All Works</button>
+                                <button className="text-white font-semibold text-sm lg:text-base py-3 px-1">Construction</button>
+                                <button className="text-white font-semibold text-sm lg:text-base py-3 px-1">Architecture</button>
+                                <button className="text-white font-semibold text-sm lg:text-base py-3 px-1">Building</button>
+                                <button className="text-white font-semibold text-sm lg:text-base py-3 px-1">Renovations</button>
+                                <button className="text-white font-semibold text-sm lg:text-base py-3 px-1">Interior</button>
                             </div>
                         </div>
-                        <div className='flex gap-5 overflow-y-auto mb-20'>
+                        <div className='flex gap-5 overflow-y-auto mb-20 pb-5'>
                             {projectBanner.map((project) => (
                                 <div className='relative flex-none cursor-pointer'>
                                     <Image src={project.src} alt={project.name} width={2000} height={5000} className='rounded-xl object-cover lg:w-96 lg:h-[485px] w-60 h-[303px]'/>

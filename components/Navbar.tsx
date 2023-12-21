@@ -17,7 +17,7 @@ const Navbar = () => {
                     {open ? <VscChromeClose size={35}/> : <TbAlignLeft size={35} />}
                     
                 </div>
-                <div className='font-unlock text-oren text-2xl lg:text-3xl'>
+                <div className='font-unlock text-oren text-xl lg:text-3xl'>
                     <a href="">
                         JHONTRAKTOR
                     </a>
@@ -41,7 +41,7 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div>
-                        <button className='bg-oren rounded-xl px-5 py-3'>Contact Us</button>
+                        <button className='bg-oren rounded-xl text-sm px-3 py-2 lg:text-base lg:px-5 lg:py-3'>Contact Us</button>
                     </div>
                 </div>
             </div>

@@ -6,7 +6,7 @@ export const About = () => {
   return (
     <div className='container mx-auto relative'>
         <div className='lg:absolute bg-oren rounded-xl text-white -top-[10.15rem] right-10 p-12'>
-            <ul className='block md:flex lg:block justify-center lg:justify-normal items-center lg:items-start'>
+            <ul className='block md:flex lg:block justify-center lg:justify-normal items-center lg:items-start text-sm lg:text-base'>
                 <li className='mb-4 flex items-center gap-2'><FaCheckCircle /> Quality Control System, 100% Satisfaction Guarantee</li>
                 <li className=' flex items-center gap-2'><FaCheckCircle /> Highly Proffesional Staff, Accurate Testing Processes</li>
                 <li className='mt-4 flex items-center gap-2'><FaCheckCircle /> Unrivalled Workmanship, Proffesional and Qualified</li>

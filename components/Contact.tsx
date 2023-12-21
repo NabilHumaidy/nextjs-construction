@@ -20,7 +20,7 @@ export const Contact = () => {
                 </ul>
 
                 <div className='flex justify-center flex-wrap md:flex-wrap lg:flex-nowrap gap-8 mx-12'>
-                  <div className='bg-oren px-10 py-8 rounded-xl flex-shrink basis-[100%] lg:basis-[64%]'>
+                  <div className='bg-oren px-5 py-4 lg:px-10 lg:py-8 rounded-xl flex-shrink basis-[100%] lg:basis-[64%]'>
                     <p className='text-white text-xl mb-4'>Request A Quote</p>
                     <p className='text-white '>Complete control over products allow us to our customers the best quality prices and services. We take great pride in everything that we do in Jhontraktor</p>
                     <form action="" method='POST' className='mt-3'>
@@ -45,7 +45,7 @@ export const Contact = () => {
                     
                   </div>
 
-                  <div className='bg-oren px-10 py-8 rounded-xl basis-[100%] lg:basis-[35%]'>
+                  <div className='bg-oren px-5 py-4 lg:px-10 lg:py-8 rounded-xl basis-[100%] lg:basis-[35%]'>
                     <p className='text-white text-xl mb-4'>Contact Info</p>
                     <div className='mb-5'>
                       <p className='text-white mb-1'>Our Location</p>
